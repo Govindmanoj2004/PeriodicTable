@@ -1,0 +1,43 @@
+.box {
+    border: 0.5px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    display: grid;
+    border-radius: 10px;
+    column-gap: 2px;
+}
+.Section1, .section1{
+    display: grid;
+    justify-content: end;
+    margin-right: 5px;
+    color: white;
+}
+.Section2, .section2{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: white;
+
+}
+.col{
+    align-content: end;
+}
+.SubContainer1{
+    display: grid;
+    grid-template: column;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    column-gap: 4px;
+    margin-top: 100px;
+}
+.SubContainer2{
+    display: grid;
+    grid-template: column;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    column-gap: 4px;
+    margin-top: 50px;
+}
+body{
+    background-color: black;
+}
